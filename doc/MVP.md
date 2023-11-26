@@ -8,4 +8,11 @@
   - Target revision: HEAD
   - Destination: default, namespace - demo
 3. Launch application sync
-4. Check application status
+4. Check application endpoint
+```sh
+kubectl port-forward -n mvp svc/ambassador 8088:80
+
+curl -F 'image=@/workspaces/AsciiArtify/demo/argo.png' localhost:8088/img/
+```
+
+![Demo](../img/ArgoCD-MVP.gif)
