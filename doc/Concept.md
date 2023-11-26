@@ -35,6 +35,9 @@ AsciiArtify планує використовувати Kubernetes для роз
 
 ## Встановлення
 
+### [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+1. Install [![asciicast](https://asciinema.org/a/623401.svg)](https://asciinema.org/a/623401)
+2. Deploy apps [![asciicast](https://asciinema.org/a/623405.svg)](https://asciinema.org/a/623405)
 
 
 ## Висновки
