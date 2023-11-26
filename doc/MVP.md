@@ -6,6 +6,13 @@
     2.2 Repository URL: https://github.com/den-vasyliev/go-demo-app
     2.3 Path: helm
     2.4 Target revision: HEAD
-    2.5 Destination: default, namespace - demo
+    2.5 Destination: default, namespace - mvp
 3. Launch application sync
-4. Check application status
+4. Check application endpoint
+```sh
+kubectl port-forward -n mvp svc/ambassador 8088:80
+
+curl -F 'image=@/workspaces/AsciiArtify/demo/argo.png' localhost:8088/img/
+```
+
+![Demo](../img/ArgoCD-MVP.gif)
