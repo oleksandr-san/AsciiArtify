@@ -6,7 +6,7 @@
   - Repository URL: https://github.com/den-vasyliev/go-demo-app
   - Path: helm
   - Target revision: HEAD
-  - Destination: default, namespace - demo
+  - Destination: default, namespace - mvp
 3. Launch application sync
 4. Check application endpoint
 ```sh
